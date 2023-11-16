@@ -41,7 +41,7 @@ export function Login() {
 				body: JSON.stringify({ email: loginEmail, password: loginPassword })
 			});
 			if (!response.ok) {
-				setLoginErrorMessage('Неверная почта или пароль');
+				setLoginErrorMessage('Неверный email или пароль');
 				return;
 			}
 			setLoginErrorMessage('');
