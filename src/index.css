@@ -1,0 +1,20 @@
+:root {
+  --font: "Open Sans", sans-serif;
+  --primary-color: #fe724c;
+  --primary-hover-color: #df6442;
+
+  --text-secondary-color: #5b5b5e;
+  --white-color: white;
+  --text-color: black;
+  --separator-color: #d4d6e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}

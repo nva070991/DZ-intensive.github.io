@@ -1,0 +1,27 @@
+.login{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	width: 100%;
+	max-width: 500px;
+
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.field {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.field label {
+	color: #C4C4C4;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+
+
