@@ -57,7 +57,7 @@ export function Login() {
 			<div className={styles['login']}>
 				<Heading>Вход</Heading>
 				{loginErrorMessage && (
-					<div className={styles['error']}>Error: {loginErrorMessage}</div>
+					<div className={styles['error']}>{loginErrorMessage}</div>
 				)}
 
 				<form className={styles['form']} onSubmit={submit}>
@@ -71,6 +71,11 @@ export function Login() {
 							type="email"
 							maxLength={200}
 						/>
+						<img
+							src="/mail-logo.svg"
+							alt="mail-icon"
+							className={styles['icons']}
+						/>
 					</div>
 					<div className={styles['field']}>
 						<label htmlFor="loginPassword">Ваш пароль</label>
@@ -82,6 +87,11 @@ export function Login() {
 							name="loginPassword"
 							type="password"
 							placeholder="Пароль"
+						/>
+						<img
+							src="/password-logo.svg"
+							alt="mail-icon"
+							className={styles['icons']}
 						/>
 					</div>
 					<Button onClick={() => {}} appearence="big">

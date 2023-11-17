@@ -8,6 +8,6 @@
 	border-radius: 10px;
 	padding: 20px;
 	border: 1px solid var(--separator-color);
-	width: 400px;
+	min-width: 270px;
 
 }
