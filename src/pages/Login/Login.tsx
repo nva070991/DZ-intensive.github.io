@@ -72,7 +72,7 @@ export function Login() {
 							maxLength={200}
 						/>
 						<img
-							src="/mail-logo.svg"
+							src="./mail-logo.svg"
 							alt="mail-icon"
 							className={styles['icons']}
 						/>
@@ -89,7 +89,7 @@ export function Login() {
 							placeholder="Пароль"
 						/>
 						<img
-							src="/password-logo.svg"
+							src="./password-logo.svg"
 							alt="mail-icon"
 							className={styles['icons']}
 						/>
